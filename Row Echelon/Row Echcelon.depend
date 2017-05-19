@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1491855260 source:c:\dev-cpp\workspace\row echelon\ref.cpp
+	<cstdlib>
+	<iostream>
+	<stdio.h>
+	<ctype.h>
+	<array>
+	<string>
+	<fstream>
+	<sstream>
+	<cmath>
+	"apmatrix.h"
+
+1480574575 c:\dev-cpp\workspace\row echelon\apmatrix.h
+
