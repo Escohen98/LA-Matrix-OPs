@@ -778,10 +778,10 @@ apmatrix<double> rrE(apmatrix<double> matrix, apmatrix<double> unmod)
                     continue;
             for(int j=r+1; j<matrix.numcols(); j++) //Col of Alter row
             {
-                printM(matrix);
+               // printM(matrix); //Debug
                 //if(unmod[i][r+1]!=0) { //Makes sure leading value in targeted !=0
                 matrix[r][j] -= unmod[i][j]*unmod[r][i]/unmod[i][i]; //B=B-E(Rt/Et)
-                cout<<matrix[r][j]<<endl;
+                //cout<<matrix[r][j]<<endl; //Debug
                 //}
             }
             unmod = matrix; //Resets targeted row.
